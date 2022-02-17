@@ -40,7 +40,7 @@ export function App() {
 
       todoTaskRef.current.value = null;
   };
-
+//
   const handleClearAll = () => {
     const newTodos = todos.filter((todo) => !todo.completed);
     setTodos(newTodos);
